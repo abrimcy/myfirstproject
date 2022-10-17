@@ -1,0 +1,94 @@
+.sub{
+    border: 5px solid black;
+    padding: 5px 5px;
+    background-color: teal;
+    color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 12px 6px 0px  6px aqua;
+
+    /* margin-left: 500px;
+    margin-top: 100px; */
+
+}
+.cover{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 100px;
+} 
+
+.name{
+    border-radius: 10px ;
+}
+.submit{
+    background-color: coral;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    
+    font: size 16px; 
+    margin: 8px 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: wavy;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@-webkit-keyframes scale{
+    0%{transform: scale(0.5,0.5);}
+    100% {transform: scale(1,1);}
+}
+@-moz-keyframes scale{
+    0% {transform: scale(0.5,0.5)}
+    100% {transform: scale(1,1)}
+}
+@-o-keyframes scale{
+    0%{transform: scale(0.5,0.5)}
+    100%{transform: scale(1,1)}
+}
+@keyframes scale{
+    0% {transform: scale(0.5,0.5);}
+    100% {transform: scale(1,1);}
+}
+
+.sub{
+    animation-name: scale;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100% {transform: rotate(3600deg);}
+}
+@-moz-keyframes rotate{
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+@-o-keyframes rotate{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+@keyframes rotate{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.vec{
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
